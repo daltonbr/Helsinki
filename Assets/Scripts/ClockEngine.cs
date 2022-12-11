@@ -15,10 +15,6 @@ public class ClockEngine : MonoBehaviour
     private readonly WaitForSeconds oneSecondWait = new(1f);
     private DateTime timeNow;
 
-    private Quaternion hourRotation;
-    private Quaternion minuteRotation;
-    private Quaternion secondRotation;
-
     private Coroutine _clockCoroutine;
     
     private void OnEnable()
